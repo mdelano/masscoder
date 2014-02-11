@@ -1,0 +1,114 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mike Delano - Programmer Web Developer</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Exo+2:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/vendor/modernizr.js"></script>
+
+  </head>
+  <body>
+    
+  <div>
+    <!-- Top Nav -->
+    <div class="row topnav">
+      <div class="large-2 columns foo orange logo">
+        <img data-interchange="[img//m.png, (default)]">
+      </div>
+      <div class="large-8 columns dark-grey menu">
+        <ul class="inline-list right">
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Experience</a></li>
+          <li><a href="#">Interests</a></li>
+          <li><a href="#">Education</a></li>
+        </ul>
+      </div>
+      <div class="large-2 columns light-grey social">
+        <ul class="inline-list right">
+          <li><a href="#"><img data-interchange="[img/glyph/facebook-medium.png, (default)]"></a></li>
+          <li><a href="#"><img data-interchange="[img/glyph/linkedin-medium.png, (default)]"></a></li>
+          <li><a href="#"><img data-interchange="[img/glyph/google_plus-medium.png, (default)]"></a></li>
+          <li><a href="#"><img data-interchange="[img/glyph/twitter-medium.png, (default)]"></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Main Above the Fold -->
+    <div class="row large-row">
+      <div class="large-6 columns">
+        <div class="me">
+          <img data-interchange="[img/mypic-med.JPG, (default)], [img/mypic-large.JPG, (large)], [img/mypic-small.JPG, (small)]">   
+        </div>
+         
+      </div>
+      <div class="large-6 columns orange">
+        What I'm Good At
+      </div>
+    </div>
+
+
+    <div class="row medium-row">
+      <div class="large-3 columns medium-grey">
+        <div class="tile">
+            <div class="programming">
+              <p>{programming;_}</p>
+            </div>
+        </div>
+      </div>
+      <div class="large-3 columns light-grey">
+        asd
+      </div>
+      <div class="large-3 columns lighter-grey">
+        asd
+      </div>
+      <div class="large-3 columns">
+        asd
+      </div>
+    </div>
+
+<div class="row medium-row">
+      <div class="large-3 columns">
+        <div class="programming">
+          {programming;_}
+        </div>
+      </div>
+      <div class="large-3 columns lighter-grey">
+        asd
+      </div>
+      <div class="large-3 columns light-grey">
+        asd
+      </div>
+      <div class="large-3 columns medium-grey">
+        asd
+      </div>
+    </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+    console,log("BAR!");
+    $(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    console.log("FOO");
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+      $(document).foundation();
+    
+    </script>
+  </body>
+</html>
