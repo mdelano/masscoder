@@ -79,7 +79,7 @@ h5 {font-family: inherit; color: #cec9c9; font-weight: 700}
 	.fixed-left-nav{ position:fixed; }
 	.lil-bit-o-padding { padding: 1em; }
 	.fixed-left-nav ul li a {font-size: 2.5em; }
-	.resume .moreless { font-size: 1.25em; }
+	.resume .moreless { font-size: 1.25em; color: #008cba; float: right; }
 	.my-blurb { display: inline; }
 }
 
