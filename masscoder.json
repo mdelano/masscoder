@@ -1,0 +1,63 @@
+{
+    "profile": {
+        "name": "Mike Delano",
+        "whatIDo": "developer",
+        "blurb": "I write code. I do it for work. I do it for fun. I love playing with new technologies and learning about this stuff as much as I can. I also like to brew beer. When I'm not developing software I'm developing beer.",
+        "smallProfileImage": "img/mypic-small.JPG",
+        "medProfileImage": "img/mypic-medium.JPG",
+        "largeProfileImage": "img/mypic-large.JPG"
+    },
+    "aboutMe": {
+        "path": "aboutMe",
+        "title": "A lil' bit about me",
+        "categories": [
+            {
+                "title": "Code",
+                "text": "I've always tried to stay as versatile as I could. In part, because having more tools gives you more solutions to problems. But also, like many devs, I just can't help getting into new things. Anytime I stumble onto something on <a>hacker news</a> it ends up becoming a weekend project.",
+                "categories": [
+                    {
+                        "title": "Back End",
+                        "text": "I'm a solid backend and middle tier developer. Anywhere I work I tend to spend loads of my time there. I enjoy it because I'm good at it and when someone says \"I have a problem\" I can use my ability there to solve it. I've done lots of DB work with Oracle, SQL Server, MySQL, Mongo, and even a little with RavenDB. I've also been a daily dev in C# .Net, Java SE, and PHP. I like working with them all."
+                    },
+                    {
+                        "title": "Front End",
+                        "text": "I love front end development. Anytime there's a front end project I try to get my hands on it. Mostly because I want to get better it. I think the futer of  dev will center around the front end. So many lower layers of the stack are becoming commodities and are being offered as a service. <em>(I was bummed I didn't think of Backend As A Service first. But, <a href=\"http: //www.kinvey.com/\">kinvey</a>, a local company, is doing some really neat stuff in that space. </em>"
+                    }
+                ]
+            },
+            {
+                "title": "Fun",
+                "categories": [
+                    {
+                        "title": "Back Country Camping (Winter!)",
+                        "text": "I camp, when it's really cold, and wet, and windy. It's an adventure. It's really fun to get out of your shelter and try to stay happy without everything that makes you comfortable. Side affects are really beuatiful views, self confidence, and whiskey. If this type of thing piques your interest I recommend <em>Breadloaf Wilderness, Green Mountain National Park, VT</em> and <em>Keen Valley, Adirondacks, NY</em>."
+                    },
+                    {
+                        "title": "Brewing",
+                        "text": "Brewing beer is a lot of fun. It comes with so much history and chemistry and simplicity and beer. It's such a simple thing."
+                    }
+                ]
+            },
+            {
+                "title": "Family",
+                "text": "I live outside of Portsmouth, NH with my baby daughter, Maizie, and my parter in life, Margaret. I'm lucky."
+            }
+        ]
+    },
+    "workHistory": {
+        "jobs": [
+            {
+                "title": "Dev Lead",
+                "company": {
+                    "name": "MediaSilo",
+                    "website": "http://www.mediasilo.com",
+                    "about": "MediaSilo is about collaborating on media. It stores and manages video for the largest production companies on the planet: Viacom, NBC, and Oprah!. And loads more where they came from."
+                },
+                "stack": "PHP; Java SE; Apache; MySQL; Mongo; *nix; Backbone; Saas; Bamboo; git",
+                "details": "Foo",
+                "started" : "March 2013",
+                "left" : "Now"
+            }
+        ]
+    }
+}

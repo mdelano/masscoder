@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="en" ng-app="masscoderApp">
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,15 +9,19 @@
 		<link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,700italic' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/foundation.css" />
 		<link rel="stylesheet" href="css/style.css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.3/angular.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.3/angular-animate.min.js"></script>
+		<script src="js/controllers/controllers.js"></script>
 		<script src="js/vendor/modernizr.js"></script>
+
 	</head>
-	<body>
+	<body ng-controller="MasscoderController">
 		<div class="row">
 			<div class="large-3 columns">
 				<div class="fixed-left-nav lil-bit-o-padding">
-					<h2>Mike Delano<small> Developer</small></h2>
+					<h2>{{masscoder.profile.name}}<small> {{masscoder.profile.whatIDo}}</small></h2>
 					<img data-interchange="[img/mypic-med.JPG, (default)], [img/mypic-large.JPG, (large)], [img/mypic-small.JPG, (small)]"> 
-					<div class="my-blurb"><p>I write code. I do it for work. I do it for fun. I love playing with new technologies and learning about this stuff as much as I can. I also like to brew 	beer. When I'm not developing software I'm developing beer.</p></div>
+					<div class="my-blurb"><p>{{masscoder.profile.blurb}}</p></div>
 					<ul class="no-bullet">
 						<li><a href="#aboutme">About Me</a></li>
 						<li class="tree-menu"><a href="#resume">Work History</a></li>
@@ -46,29 +50,15 @@
 			<div class="section-divider"></div>
 			<a id="aboutme"></a>
 			<div class="lil-bit-o-padding aboutme">
-					<h1>A lil' bit about me</h1>
-					<div class="job lil-bit-o-padding">
-						<h3>Code</h3>
-						<p>I've always tried to stay as versatile as I could. In part, because having more tools gives you more solutions to problems. But also, like many devs, I just can't help getting into new things. Anytime I stumble onto something on <a>hacker news</a> it ends up becoming a weekend project.</p>
-
-						<h5>Back End</h5>
-						<p>I'm a solid backend and middle tier developer. Anywhere I work I tend to spend loads of my time there. I enjoy it because I'm good at it and when someone says "I have a problem" I can use my ability there to solve it. I've done lots of DB work with Oracle, SQL Server, MySQL, Mongo, and even a little with RavenDB. I've also been a daily dev in C# .Net, Java SE, and PHP. I like working with them all.</p>
-
-						<h5>Front End</h5>
-						<p>I love front end development. Anytime there's a front end project I try to get my hands on it. Mostly because I want to get better it. I think the futer of  dev will center around the front end. So many lower layers of the stack are becoming commodities and are being offered as a service. <em>(I was bummed I didn't think of Backend As A Service first. But, <a href="http://www.kinvey.com/">kinvey</a>, a local company, is doing some really neat stuff in that space. </em>
-
-						<p>I feel confident working in a modern front end stack. The one I work in now uses Saas-Bootstrap, jQuery, Modernizer, Backbone.JS, grunt, jasmine, and Require.JS. The site your visting now site doesn't have such a deep stack. It's using Foundation, Saas...etc.</p>
-
-						<h3>Fun</h3>
-
-						<h5>Back Country Camping (Winter!)</h5>
-						<p>I camp, when it's really cold, and wet, and windy. It's an adventure. It's really fun to get out of your shelter and try to stay happy without everything that makes you comfortable. Side affects are really beuatiful views, self confidence, and whiskey. If this type of thing piques your interest I recommend <em>Breadloaf Wilderness, Green Mountain National Park, VT</em> and <em>Keen Valley, Adirondacks, NY</em>.</p>
-						<h5>Brewing</h5>
-						<p>Brewing beer is a lot of fun. It comes with so much history and chemistry and simplicity and beer. It's such a simple thing.</p>
-					
-						<h3>Family</h3>
-						<p>I live outside of Portsmouth, NH with my baby daughter, Maizie, and my parter in life, Margaret. I'm lucky.</p>
+				<h1>{{masscoder.aboutMe.title}}</h1>
+				<div class="lil-bit-o-padding" ng-repeat="category in masscoder.aboutMe.categories">
+					<h3>{{category.title}}</h3>
+					<p>{{category.text}}</p>
+					<div ng-repeat="subcategory in category.categories">
+						<h5>{{subcategory.title}}</h5>
+						<p>{{subcategory.text}}</p>
 					</div>
+				</div>
 			</div>
 			<div class="section-divider big-boy">
 				<img data-interchange="[img/bird-2.png, (default)], [img/bird-2.png, (large)], [img/bird-2.png, (small)]">
@@ -77,6 +67,27 @@
 				<div class="lil-bit-o-padding resume">
 					
 					<h1>Work History</h1>
+					<div ng-repeat="job in masscoder.workHistory.jobs">
+						<div class="job lil-bit-o-padding" ng-click=toggleVisibility(job.company.name)>
+							<span class="moreless">more</span>
+							<h2>{{job.title}}</h2>
+							<h3>{{job.company.name}}<small> {{job.started}} - {{job.left}}</small></h3>
+							<div class="job-details animate-show" ng-show="isVisible(job.company.name)">
+								<div class="company-profile dont-squish-me">
+									<h3>A little about {{job.company.name}}:</h3>
+									<p>{{job.company.about}}</p>
+								</div>
+								<div>
+									<h3>Stack:</h3>
+									<p>{{job.stack}}</p>
+								</div>
+								<div>
+									<h3>What I Worked On:</h3>
+									<p>{{job.details}}</p>
+								</div>
+							</div>
+						</div>
+					</div>
 					<div class="job lil-bit-o-padding">
 						<span class="moreless">more</span>
 						<h2>Dev Lead</h2>
@@ -266,19 +277,7 @@
 	    <script>
 	      	$(document).foundation();
 
-			$(function() {
-					$(".job").click(function () { 
-						var moreText = "more", 
-							lessText = "less";
-						var $moreless = $(event.currentTarget).find(".moreless");
 
-						$moreless.text() == moreText ? $moreless.text(lessText) : $moreless.text(moreText);
-
-						var $jobDetails = $(event.currentTarget).find(".job-details");	
-						$jobDetails.toggle(500);
-
-				});
-			});
 
 
 

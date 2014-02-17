@@ -28,12 +28,29 @@ h5 {font-family: inherit; color: #cec9c9; font-weight: 700}
 .fixed-left-nav p {font-size: 1em; padding-top:1em; color: black; }
 .fixed-left-nav a:hover {background-color:yellow;}
 
-.resume {font-family: 'Ubuntu Mono', sans-serif;} display:table;
+.resume {font-family: 'Ubuntu Mono', sans-serif;}
 .resume .moreless {float:right; font-weight: 700; color: #008cba;}
-.resume .job-details {display: none;}
 .resume .job:hover{background-color: black;}
 
 /* http://alwaystwisted.com/post.php?s=2012-04-28-a-common-set-of-breakpoints-to-start */
+.animate-show.ng-hide-add, 
+.animate-show.ng-hide-remove {
+  -webkit-transition:all linear 0.5s;
+  -moz-transition:all linear 0.5s;
+  -o-transition:all linear 0.5s;
+  transition:all linear 0.5s;
+  display:block!important;
+}
+
+.animate-show.ng-hide-add.ng-hide-add-active,
+.animate-show.ng-hide-remove {
+  opacity:0;
+}
+
+.animate-show.ng-hide-add,
+.animate-show.ng-hide-remove.ng-hide-remove-active {
+  opacity:1;
+}
 
 
 /* ===== == = === 20em (320px) === = == ===== */
