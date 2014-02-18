@@ -13,7 +13,7 @@
         "categories": [
             {
                 "title": "Code",
-                "text": "I've always tried to stay as versatile as I could. In part, because having more tools gives you more solutions to problems. But also, like many devs, I just can't help getting into new things. Anytime I stumble onto something on <a>hacker news</a> it ends up becoming a weekend project.",
+                "text": "I've always tried to stay as versatile as I could. In part, because having more tools gives you more solutions to problems. But also, like many devs, I just can't help getting into new things. Anytime I stumble onto something on hacker news it ends up becoming a weekend project.",
                 "categories": [
                     {
                         "title": "Back End",
@@ -21,7 +21,7 @@
                     },
                     {
                         "title": "Front End",
-                        "text": "I love front end development. Anytime there's a front end project I try to get my hands on it. Mostly because I want to get better it. I think the futer of  dev will center around the front end. So many lower layers of the stack are becoming commodities and are being offered as a service. <em>(I was bummed I didn't think of Backend As A Service first. But, <a href=\"http: //www.kinvey.com/\">kinvey</a>, a local company, is doing some really neat stuff in that space. </em>"
+                        "text": "I love front end development. Anytime there's a front end project I try to get my hands on it. Mostly because I want to get better it. I think the futer of  dev will center around the front end. So many lower layers of the stack are becoming commodities and are being offered as a service. (I was bummed I didn't think of Backend As A Service first. But, kinvey, a local company, is doing some really neat stuff in that space."
                     }
                 ]
             },
@@ -30,7 +30,7 @@
                 "categories": [
                     {
                         "title": "Back Country Camping (Winter!)",
-                        "text": "I camp, when it's really cold, and wet, and windy. It's an adventure. It's really fun to get out of your shelter and try to stay happy without everything that makes you comfortable. Side affects are really beuatiful views, self confidence, and whiskey. If this type of thing piques your interest I recommend <em>Breadloaf Wilderness, Green Mountain National Park, VT</em> and <em>Keen Valley, Adirondacks, NY</em>."
+                        "text": "I camp, when it's really cold, and wet, and windy. It's an adventure. It's really fun to get out of your shelter and try to stay happy without everything that makes you comfortable. Side affects are really beuatiful views, self confidence, and whiskey. If this type of thing piques your interest I recommend Breadloaf Wilderness, Green Mountain National Park, VT and Keen Valley, Adirondacks, NY."
                     },
                     {
                         "title": "Brewing",
@@ -54,10 +54,135 @@
                     "about": "MediaSilo is about collaborating on media. It stores and manages video for the largest production companies on the planet: Viacom, NBC, and Oprah!. And loads more where they came from."
                 },
                 "stack": "PHP; Java SE; Apache; MySQL; Mongo; *nix; Backbone; Saas; Bamboo; git",
-                "details": "Foo",
-                "started" : "March 2013",
-                "left" : "Now"
+                "details": [
+                    "When I came on board, MediaSilo was a team of 7 and they have increased that to 15 since then. They are making a strong run at the market and there are loads of opportunities to build products to support it. Lot's of the work I've done here has been greenfields dev.",
+                    "I lead the dev team here. We've been busy. We've written a couple web apps with half a dozen more on the burner. We've also written a public REST API which we consume ourselves to keep us honest.",
+                    "Our backend dev consists of a lot of Java and PHP. Our primary DB's are MySQL and MongoDB and we are currently branching towards ElasticSearch to support our API (which was just released to version 1, by the way)"
+                ],
+                "started": "March 2013",
+                "left": "Now"
+            },
+            {
+                "title": "Senior Developer",
+                "company": {
+                    "name": "Karmaloop.com",
+                    "website": "http://www.karmaloop.com",
+                    "about": "Karmaloop is an online retailer of \"Street Wear\". I didn't know what street wear was before karmaloop showed me the light. Now I'm wicked hip. :). They sell lots of clothes. 200M worth last year."
+                },
+                "stack": "C# .Net; SQL Server; Entity Framework; Unity; jQuery; Mustache; git;",
+                "details": [
+                    "I was a dveloper on the core product, Karmaloop.com. Karmaloop.com is a multi-tenant site that supports 5 e-commerce sites in total: MissKL.com, BrickHarbor.com, Boylston Trading Co., Kazbah.com, and Karmaloop.com. From a backend perspective supporting multipl e-commerce sites made total sense. They all had overlapping functionality: browse, search, product details, cart, payment. So, supporting them all with a single back end made sense. For the front end Mustache and Razor came in handy. We had a core set of templates and styles that were overriden in cases where the UX needed to be different."
+                ],
+                "started": "Nov 2013",
+                "left": "March 2013"
+            },
+            {
+                "title": "Senior Developer",
+                "company": {
+                    "name": "FirstGiving.com",
+                    "website": "http://www.firstgiving.com",
+                    "about": "Firstgiving is a crowdsourced fundraising platform. They help non profit organizations get the money they need by giving fundraisers and donors a place to help them."
+                },
+                "stack": "C# .Net, PHP, Backbone, Handlebars, Require, Saas, jQuery, SQL Server, MongoDB, RavenDB, IIS, AppFabric; git",
+                "details": [
+                    "This company has been a dream. They have a great dev shop culture; are constantly developing; and have a mission worth following: increase giving in the world.",
+                    "While at FirstGiving,I led a team responsible for developing and maintaining the core product, FirstGiving.com. FirstGiving.com is a .Net4, MVC3 application, which sits on a clustered SQL Server 2008 database. The site exposes its RESTful and SOAP APIs through WCF using AppFabric.",
+                    "In addition to core product development, secondary projects gave me the opportunity to work with RavenDB and MongoDB. We built a search application that would index all of the sites pages. We need blazing fast results so we turned to these document DBs."
+                ],
+                "started": "Noc 2011",
+                "left": "Nov 2013"
+            },
+            {
+                "title": "Developer",
+                "company": {
+                    "name": "Rezolve",
+                    "website": "http://www.rezolvegroup.com",
+                    "about": "Rezolve's mission is to help students get the money they need for college. They have three core products: the College Net Cost Calculator; Student Aid: a financial aid engine; and a FAFSA preparation service."
+                },
+                "stack": "C#, ASP, SQL Server",
+                "details": [
+                    "I really enjoyed working on this tight knit team. The group of developers I joined here had been working together for years. This gave me some great exposure to seeing the value in a strong team. I learned a lot about good communication and what it looked like to lead a team.",
+                    "Primarily we worked on two products, StudentAid.com and FAFSA.com. While working here we redeveloped StudentAid.com entirely. The redevelopment took six strenuous months where we rewrote both the public facing website and the internal administrative application. During this project, I worked on a fun task where I wrote a collaborative algorithm which forcasted the total aid a student could expect based on comparitive financial and award data from millions of other applicants. As more data was collected the algorithm would produce more accurate forecasts."
+                ],
+                "started": "Dec 2009",
+                "left": "Nov 2011"
+            },
+            {
+                "title": "Database Developer",
+                "company": {
+                    "name": "Sunovion",
+                    "website": "http://www.sunovion.com",
+                    "about": "Sunovion is a pharma company. Most people know them by the product Lunesta. It's the commercial with the lunar moth that looks like a nuclear butterfly glowing bright radioactive green."
+                },
+                "stack": "Oracle",
+                "details": [
+                    "This was a short role for me as I transitioned from NYC back to Massachusetts. I mainly worked on DB Ops installing and maintaining a few dozen oracle DBs"
+                ],
+                "started": "Sep 2009",
+                "left": "Dec 2009"
+            },
+            {
+                "title": "Database Developer",
+                "company": {
+                    "name": "JCDecaux",
+                    "website": "http://www.jcdecauxna.com",
+                    "about": "JCDecaux  is an advertizing company that focuses on outdoor. Pretty much any advertising you see when you're not at home is something they are interested in. If you've spent anytime in Boston, you've seen JCDecaux's ad space."
+                },
+                "stack": "C#, Oracle; SQL Server",
+                "details": [
+                    "This was an exciting opportunity where I learned about midtown New York advertising. The CTO gave the team a room with large windows that looked over lower Manahattan from the 33rd floor. What a cool experience.",
+                    "Here I was responsible for Oracle and SQL Server database administration as well as supporting development initiatives. Administration tasks included installation; configuration; database backup; recovery testing; index management; monitoring; performance management; and query tuning. Development tasks primarily involved developing procedural SQL and schema design."
+                ],
+                "started": "March 2009",
+                "left": "Sep 2009"
+            },
+            {
+                "title": "Software Engineer",
+                "company": {
+                    "name": "Fidelity Investments",
+                    "website": "http://www.fidelity.com",
+                    "about": "Fidelity is an investment and human resources company.They have a big focus on retirement planning."
+                },
+                "stack": "PHP; Java EE; Apache; Oracle; Mongo; Windows; Suse Linux;",
+                "details": [
+                    "This was the start of my career where I gained mentorship from some great engineers and managers. These people were experts and I'm grateful for them showing me the ropes.",
+                    "This is where I got my first glimpse of working on a well oiled dev team. We developed and supported several internal applications used by the company. Applications were J2EE and PHP running on Apache and Tomcat. I was also responsible for working with the business to develop and bug fix the Workflow Tracker, and internal process flow management application."
+                ],
+                "started": "Nov 2006",
+                "left": "March 2009"
             }
         ]
+    },
+    "education": {
+        "schools": [
+            {
+                "name": "Northeastern University",
+                "whatIGotFromIt": "Bachelor of Science Information Technology"
+            },
+            {
+                "name": "Eastern University",
+                "whatIGotFromIt": "Studies in Theology"
+            }
+        ],
+        "practicalLearning": {
+            "details": [
+                "For me the best learning has come from experience and asking questions of the smart poeple I've been lucky to work with. Oh, and Google.",
+                "Here are some people that have schooled me over the years:"
+            ],
+            "peopleWhoSchooledMe": [
+                {
+                    "name": "Vlad Kriger",
+                    "lesson": "School of programming in the real world: 101"
+                },
+                {
+                    "name": "Bruce Lindsay",
+                    "lesson": "The art of cranking out code: Put you head phones on and your hands on the keyboard"
+                },
+                {
+                    "name": "Eric McCormack",
+                    "lesson": "Leadership: How being crass and loud builds relationships"
+                }
+            ]
+        }
     }
 }

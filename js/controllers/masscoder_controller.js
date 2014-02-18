@@ -1,7 +1,5 @@
 'use strict';
 
-/* Controllers */
-
 var masscoderApp = angular.module('masscoderApp', ['ngAnimate']);
 
 masscoderApp.controller('MasscoderController', function($scope, $http) {
@@ -11,22 +9,25 @@ masscoderApp.controller('MasscoderController', function($scope, $http) {
 
   $scope.visibles = new Array();
 
+  /**
+  ** Drives the isVisible function by maintaining an array of "visibles"
+  ** Given a DOM element, we track it's current state using local visibles
+  
+  **/
   $scope.toggleVisibility = (function(elId) {
   	if($scope.isVisible(elId)) {
-  		console.log("Visible. Removing vis array.");
   		var index = $scope.visibles.indexOf(elId);
-  		console.log(index);
-  		console.log($scope.visibles);
   		$scope.visibles.splice(index, 1);
-  		console.log($scope.visibles);
 
   	}
   	else {
-  		console.log("Not visible. Adding to vis array.");
   		$scope.visibles.push(elId);
   	}
   });
 
+  /**
+  ** Determins if a DOM element is currently visible using local visibles
+  **/
   $scope.isVisible = (function(elId) {
   	return $scope.visibles.indexOf(elId) >= 0;
   });
