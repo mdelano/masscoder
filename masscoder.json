@@ -21,7 +21,7 @@
                     },
                     {
                         "title": "Front End",
-                        "text": "I love front end development. Anytime there's a front end project I try to get my hands on it. Mostly because I want to get better it. I think the futer of  dev will center around the front end. So many lower layers of the stack are becoming commodities and are being offered as a service. (I was bummed I didn't think of Backend As A Service first. But, kinvey, a local company, is doing some really neat stuff in that space."
+                        "text": "I love front end development. Anytime there's a front end project I try to get my hands on it. Mostly because I want to get better it. I think the future of  dev will center around the front end. So many lower layers of the stack are becoming commodities and are being offered as a service. (I was bummed I didn't think of Backend As A Service first. But, kinvey, a local company, is doing some really neat stuff in that space."
                     }
                 ]
             },
@@ -29,8 +29,8 @@
                 "title": "Fun",
                 "categories": [
                     {
-                        "title": "Back Country Camping (Winter!)",
-                        "text": "I camp, when it's really cold, and wet, and windy. It's an adventure. It's really fun to get out of your shelter and try to stay happy without everything that makes you comfortable. Side affects are really beuatiful views, self confidence, and whiskey. If this type of thing piques your interest I recommend Breadloaf Wilderness, Green Mountain National Park, VT and Keen Valley, Adirondacks, NY."
+                        "title": "Backcountry Camping (Winter!)",
+                        "text": "I camp, when it's really cold, and wet, and windy. It's an adventure. It's really fun to get out of your shelter and try to stay happy without everything that makes you comfortable. Side effects are really beautiful views, self confidence, and whiskey. If this type of thing piques your interest I recommend Breadloaf Wilderness, Green Mountain National Park, VT and Keen Valley, Adirondacks, NY."
                     },
                     {
                         "title": "Brewing",
@@ -40,7 +40,7 @@
             },
             {
                 "title": "Family",
-                "text": "I live outside of Portsmouth, NH with my baby daughter, Maizie, and my parter in life, Margaret. I'm lucky."
+                "text": "I live outside of Portsmouth, NH with my baby daughter, Maizie, and my partner in life, Margaret. I'm lucky."
             }
         ]
     },
@@ -67,11 +67,11 @@
                 "company": {
                     "name": "Karmaloop.com",
                     "website": "http://www.karmaloop.com",
-                    "about": "Karmaloop is an online retailer of \"Street Wear\". I didn't know what street wear was before karmaloop showed me the light. Now I'm wicked hip. :). They sell lots of clothes. 200M worth last year."
+                    "about": "Karmaloop is an online retailer of \"Streetwear\". I didn't know what streetwear was before karmaloop showed me the light. Now I'm wicked hip. :). They sell lots of clothes. 200M worth last year."
                 },
                 "stack": "C# .Net; SQL Server; Entity Framework; Unity; jQuery; Mustache; git;",
                 "details": [
-                    "I was a dveloper on the core product, Karmaloop.com. Karmaloop.com is a multi-tenant site that supports 5 e-commerce sites in total: MissKL.com, BrickHarbor.com, Boylston Trading Co., Kazbah.com, and Karmaloop.com. From a backend perspective supporting multipl e-commerce sites made total sense. They all had overlapping functionality: browse, search, product details, cart, payment. So, supporting them all with a single back end made sense. For the front end Mustache and Razor came in handy. We had a core set of templates and styles that were overriden in cases where the UX needed to be different."
+                    "I was a dveloper on the core product, Karmaloop.com. Karmaloop.com is a multi-tenant site that supports 5 ecommerce sites in total: MissKL.com, BrickHarbor.com, Boylston Trading Co., Kazbah.com, and Karmaloop.com. From a backend perspective supporting multiple ecommerce sites made total sense. They all had overlapping functionality: browse, search, product details, cart, payment. So, supporting them all with a single back end made sense. For the front end Mustache and Razor came in handy. We had a core set of templates and styles that were overridden in cases where the UX needed to be different."
                 ],
                 "started": "Nov 2013",
                 "left": "March 2013"
@@ -89,7 +89,7 @@
                     "While at FirstGiving,I led a team responsible for developing and maintaining the core product, FirstGiving.com. FirstGiving.com is a .Net4, MVC3 application, which sits on a clustered SQL Server 2008 database. The site exposes its RESTful and SOAP APIs through WCF using AppFabric.",
                     "In addition to core product development, secondary projects gave me the opportunity to work with RavenDB and MongoDB. We built a search application that would index all of the sites pages. We need blazing fast results so we turned to these document DBs."
                 ],
-                "started": "Noc 2011",
+                "started": "Nov 2011",
                 "left": "Nov 2013"
             },
             {
@@ -102,7 +102,7 @@
                 "stack": "C#, ASP, SQL Server",
                 "details": [
                     "I really enjoyed working on this tight knit team. The group of developers I joined here had been working together for years. This gave me some great exposure to seeing the value in a strong team. I learned a lot about good communication and what it looked like to lead a team.",
-                    "Primarily we worked on two products, StudentAid.com and FAFSA.com. While working here we redeveloped StudentAid.com entirely. The redevelopment took six strenuous months where we rewrote both the public facing website and the internal administrative application. During this project, I worked on a fun task where I wrote a collaborative algorithm which forcasted the total aid a student could expect based on comparitive financial and award data from millions of other applicants. As more data was collected the algorithm would produce more accurate forecasts."
+                    "Primarily we worked on two products, StudentAid.com and FAFSA.com. While working here we redeveloped StudentAid.com entirely. The redevelopment took six strenuous months where we rewrote both the public facing website and the internal administrative application. During this project, I worked on a fun task where I wrote a collaborative algorithm which foreasted the total aid a student could expect based on comparative financial and award data from millions of other applicants. As more data was collected the algorithm would produce more accurate forecasts."
                 ],
                 "started": "Dec 2009",
                 "left": "Nov 2011"
@@ -126,11 +126,11 @@
                 "company": {
                     "name": "JCDecaux",
                     "website": "http://www.jcdecauxna.com",
-                    "about": "JCDecaux  is an advertizing company that focuses on outdoor. Pretty much any advertising you see when you're not at home is something they are interested in. If you've spent anytime in Boston, you've seen JCDecaux's ad space."
+                    "about": "JCDecaux  is an advertising company that focuses on outdoor. Pretty much any advertising you see when you're not at home is something they are interested in. If you've spent anytime in Boston, you've seen JCDecaux's ad space."
                 },
                 "stack": "C#, Oracle; SQL Server",
                 "details": [
-                    "This was an exciting opportunity where I learned about midtown New York advertising. The CTO gave the team a room with large windows that looked over lower Manahattan from the 33rd floor. What a cool experience.",
+                    "This was an exciting opportunity where I learned about midtown New York advertising. The CTO gave the team a room with large windows that looked over lower Manhattan from the 33rd floor. What a cool experience.",
                     "Here I was responsible for Oracle and SQL Server database administration as well as supporting development initiatives. Administration tasks included installation; configuration; database backup; recovery testing; index management; monitoring; performance management; and query tuning. Development tasks primarily involved developing procedural SQL and schema design."
                 ],
                 "started": "March 2009",
@@ -176,7 +176,7 @@
                 },
                 {
                     "name": "Bruce Lindsay",
-                    "lesson": "The art of cranking out code: Put you head phones on and your hands on the keyboard"
+                    "lesson": "The art of cranking out code: Put your headphones on and your hands on the keyboard"
                 },
                 {
                     "name": "Eric McCormack",
