@@ -59,7 +59,7 @@
                     "I lead the dev team here. We've been busy. We've written a couple web apps with half a dozen more on the burner. We've also written a public REST API which we consume ourselves to keep us honest.",
                     "Our backend dev consists of a lot of Java and PHP. Our primary DB's are MySQL and MongoDB and we are currently branching towards ElasticSearch to support our API (which was just released to version 1, by the way)"
                 ],
-                "started": "March 2013",
+                "started": "Mar 2013",
                 "left": "Now"
             },
             {
@@ -74,7 +74,7 @@
                     "I was a dveloper on the core product, Karmaloop.com. Karmaloop.com is a multi-tenant site that supports 5 ecommerce sites in total: MissKL.com, BrickHarbor.com, Boylston Trading Co., Kazbah.com, and Karmaloop.com. From a backend perspective supporting multiple ecommerce sites made total sense. They all had overlapping functionality: browse, search, product details, cart, payment. So, supporting them all with a single back end made sense. For the front end Mustache and Razor came in handy. We had a core set of templates and styles that were overridden in cases where the UX needed to be different."
                 ],
                 "started": "Nov 2012",
-                "left": "March 2013"
+                "left": "Mar 2013"
             },
             {
                 "title": "Senior Developer",
@@ -104,8 +104,8 @@
                     "I really enjoyed working on this tight knit team. The group of developers I joined here had been working together for years. This gave me some great exposure to seeing the value in a strong team. I learned a lot about good communication and what it looked like to lead a team.",
                     "Primarily we worked on two products, StudentAid.com and FAFSA.com. While working here we redeveloped StudentAid.com entirely. The redevelopment took six strenuous months where we rewrote both the public facing website and the internal administrative application. During this project, I worked on a fun task where I wrote a collaborative algorithm which foreasted the total aid a student could expect based on comparative financial and award data from millions of other applicants. As more data was collected the algorithm would produce more accurate forecasts."
                 ],
-                "started": "Feb 2009",
-                "left": "Dec 2010"
+                "started": "Mar 2009",
+                "left": "Nov 2010"
             },
             {
                 "title": "Database Developer",
