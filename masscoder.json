@@ -73,7 +73,7 @@
                 "details": [
                     "I was a dveloper on the core product, Karmaloop.com. Karmaloop.com is a multi-tenant site that supports 5 ecommerce sites in total: MissKL.com, BrickHarbor.com, Boylston Trading Co., Kazbah.com, and Karmaloop.com. From a backend perspective supporting multiple ecommerce sites made total sense. They all had overlapping functionality: browse, search, product details, cart, payment. So, supporting them all with a single back end made sense. For the front end Mustache and Razor came in handy. We had a core set of templates and styles that were overridden in cases where the UX needed to be different."
                 ],
-                "started": "Nov 2013",
+                "started": "Nov 2012",
                 "left": "March 2013"
             },
             {
@@ -89,8 +89,8 @@
                     "While at FirstGiving,I led a team responsible for developing and maintaining the core product, FirstGiving.com. FirstGiving.com is a .Net4, MVC3 application, which sits on a clustered SQL Server 2008 database. The site exposes its RESTful and SOAP APIs through WCF using AppFabric.",
                     "In addition to core product development, secondary projects gave me the opportunity to work with RavenDB and MongoDB. We built a search application that would index all of the sites pages. We need blazing fast results so we turned to these document DBs."
                 ],
-                "started": "Nov 2011",
-                "left": "Nov 2013"
+                "started": "Nov 2010",
+                "left": "Nov 2012"
             },
             {
                 "title": "Developer",
@@ -104,8 +104,8 @@
                     "I really enjoyed working on this tight knit team. The group of developers I joined here had been working together for years. This gave me some great exposure to seeing the value in a strong team. I learned a lot about good communication and what it looked like to lead a team.",
                     "Primarily we worked on two products, StudentAid.com and FAFSA.com. While working here we redeveloped StudentAid.com entirely. The redevelopment took six strenuous months where we rewrote both the public facing website and the internal administrative application. During this project, I worked on a fun task where I wrote a collaborative algorithm which foreasted the total aid a student could expect based on comparative financial and award data from millions of other applicants. As more data was collected the algorithm would produce more accurate forecasts."
                 ],
-                "started": "Dec 2009",
-                "left": "Nov 2011"
+                "started": "Feb 2009",
+                "left": "Dec 2010"
             },
             {
                 "title": "Database Developer",
@@ -118,8 +118,8 @@
                 "details": [
                     "This was a short role for me as I transitioned from NYC back to Massachusetts. I mainly worked on DB Ops installing and maintaining a few dozen oracle DBs"
                 ],
-                "started": "Sep 2009",
-                "left": "Dec 2009"
+                "started": "Nov 2008",
+                "left": "March 2009"
             },
             {
                 "title": "Database Developer",
@@ -133,8 +133,8 @@
                     "This was an exciting opportunity where I learned about midtown New York advertising. The CTO gave the team a room with large windows that looked over lower Manhattan from the 33rd floor. What a cool experience.",
                     "Here I was responsible for Oracle and SQL Server database administration as well as supporting development initiatives. Administration tasks included installation; configuration; database backup; recovery testing; index management; monitoring; performance management; and query tuning. Development tasks primarily involved developing procedural SQL and schema design."
                 ],
-                "started": "March 2009",
-                "left": "Sep 2009"
+                "started": "May 2008",
+                "left": "Nov 2008
             },
             {
                 "title": "Software Engineer",
@@ -148,8 +148,8 @@
                     "This was the start of my career where I gained mentorship from some great engineers and managers. These people were experts and I'm grateful for them showing me the ropes.",
                     "This is where I got my first glimpse of working on a well oiled dev team. We developed and supported several internal applications used by the company. Applications were J2EE and PHP running on Apache and Tomcat. I was also responsible for working with the business to develop and bug fix the Workflow Tracker, and internal process flow management application."
                 ],
-                "started": "Nov 2006",
-                "left": "March 2009"
+                "started": "Nov 2005",
+                "left": "May 2008"
             }
         ]
     },
