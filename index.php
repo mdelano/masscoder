@@ -5,14 +5,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Mike Delano - Programmer Web Developer</title>
 
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Exo+2:400,300,700' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,700italic' rel='stylesheet' type='text/css'>
+		<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+		<link href='//fonts.googleapis.com/css?family=Exo+2:400,300,700' rel='stylesheet' type='text/css'>
+		<link href='//fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,700italic' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/foundation.css" />
 		<link rel="stylesheet" href="css/style.css" />
 
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.3/angular.min.js"></script>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.3/angular-animate.min.js"></script>
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.3/angular.min.js"></script>
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.3/angular-animate.min.js"></script>
 		<script src="js/controllers/masscoder_controller.js"></script>
 		<script src="js/vendor/modernizr.js"></script>
 	</head>
@@ -24,8 +24,8 @@
 				<!-- Left Nav Start -->
 				<div class="fixed-left-nav lil-bit-o-padding">
 					<h2>{{masscoder.profile.name}}<small> {{masscoder.profile.whatIDo}}</small></h2>
-					<img data-interchange="[img/mypic-med.JPG, (default)], [img/mypic-large.JPG, (large)], [img/mypic-small.JPG, (small)]"> 
-					
+					<img data-interchange="[img/mypic-med.JPG, (default)], [img/mypic-large.JPG, (large)], [img/mypic-small.JPG, (small)]">
+
 					<div class="my-blurb">
 						<p>{{masscoder.profile.blurb}}</p>
 					</div>
@@ -41,10 +41,10 @@
 
 					<div class="social">
 						<ul class="inline-list">
-							<li><a target="_blank" href="http://www.linkedin.com/pub/michael-delano/b/812/2?trk=shareTw"><img data-interchange="[img/glyph/linkedin-large.png, (default)], [img/glyph/linkedin-large.png, (large)], [img/glyph/linkedin-medium.png, (small)]"> </a></li>
-							<li><a target="_blank" href="https://www.facebook.com/michaelbdelano"><img data-interchange="[img/glyph/facebook-large.png, (default)], [img/glyph/facebook-large.png, (large)], [img/glyph/facebook-medium.png, (small)]"></a></li>
-							<li><a target="_blank" href="https://twitter.com/mbdelano"><img data-interchange="[img/glyph/twitter-large.png, (default)], [img/glyph/twitter-large.png, (large)], [img/glyph/twitter-medium.png, (small)]"></a></li>
-							<li><a target="_blank" href="https://plus.google.com/u/0/109785372437718516628/posts"><img data-interchange="[img/glyph/google_plus-large.png, (default)], [img/glyph/google_plus-large.png, (large)], [img/glyph/google_plus-medium.png, (small)]"></a></li>
+							<li><a target="_blank" href="//www.linkedin.com/pub/michael-delano/b/812/2?trk=shareTw"><img data-interchange="[img/glyph/linkedin-large.png, (default)], [img/glyph/linkedin-large.png, (large)], [img/glyph/linkedin-medium.png, (small)]"> </a></li>
+							<li><a target="_blank" href="//www.facebook.com/michaelbdelano"><img data-interchange="[img/glyph/facebook-large.png, (default)], [img/glyph/facebook-large.png, (large)], [img/glyph/facebook-medium.png, (small)]"></a></li>
+							<li><a target="_blank" href="//twitter.com/mbdelano"><img data-interchange="[img/glyph/twitter-large.png, (default)], [img/glyph/twitter-large.png, (large)], [img/glyph/twitter-medium.png, (small)]"></a></li>
+							<li><a target="_blank" href="//plus.google.com/u/0/109785372437718516628/posts"><img data-interchange="[img/glyph/google_plus-large.png, (default)], [img/glyph/google_plus-large.png, (large)], [img/glyph/google_plus-medium.png, (small)]"></a></li>
 						</ul>
 					</div>
 
@@ -53,8 +53,8 @@
 				</div>
 
 				<!-- Left Nav End -->
-			</div>	
-			
+			</div>
+
 			<!-- Main Content Start -->
 			<div class="large-9 columns main-content">
 
@@ -152,10 +152,10 @@
 					<div class="lil-bit-o-padding">
 						<h5>This site was built using</h5>
 						<div class="lil-bit-o-padding">
-							<h3><a href="http://foundation.zurb.com/">Foudation</a></h3>
+							<h3><a href="//foundation.zurb.com/">Foudation</a></h3>
 						</div>
 						<div class="lil-bit-o-padding">
-							<h3><a href="http://angularjs.org/">AngularJS</a></h3>
+							<h3><a href="//angularjs.org/">AngularJS</a></h3>
 						</div>
 						<div class="lil-bit-o-padding">
 							<h3>Love</h3>
@@ -171,7 +171,7 @@
 			</div>
 			<!-- Main Content End -->
 		</div>
-			
+
 
 	    <script src="js/vendor/jquery.js"></script>
 	    <script src="js/foundation.min.js"></script>
